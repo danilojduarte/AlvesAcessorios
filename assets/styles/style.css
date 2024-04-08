@@ -10,6 +10,29 @@
 
 :root {
     --bg-color: #fff9ea;
+    --pimary-color: #dd5523;
+    --second-color: #030382;
+    --white-color: #fff;
+}
+/* Componentes */
+.btn-default {
+    border: none;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--pimary-color);
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    color: var(--white-color);
+    box-shadow: 0px 0px 10px 2px rgba( 0, 0, 0, 0.1);
+    cursor: pointer;    
+    transition: all .3s ease;
+}
+.btn-default:hover {
+    background-color: var(--bg-color);
+    color: var(--second-color);
 }
 
 body {
@@ -35,4 +58,51 @@ header {
     display: flex;
     font-size: 14px;
     gap: 48px;
+}
+.nav-item a {
+    text-decoration: none;
+    color: var(--pimary-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nav-item.active a {
+    color: #030382;
+    border-bottom: 3px solid #030382;
+}
+
+/* Escondendo menu mobile */
+#mobile_btn {
+    display: none;
+}
+#mobile_menu {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsividade */
+@media screen and (max-width: 1170px ) {
+    #nav_list,
+    #navbar .btn-default {
+        display: none;
+    }
+    #mobile_btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        color: var(--pimary-color);
+        cursor: pointer;
+    }
+    #mobile_menu.active {
+        display: block;
+    }
+    
 }

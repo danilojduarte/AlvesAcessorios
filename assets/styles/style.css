@@ -67,7 +67,7 @@ section {
 /* HEADER */
 header {
     width: 100%;
-    padding: 16px 11%;
+    padding: 18px 11%;
 }
 #navbar {
     width: 100%;
@@ -177,6 +177,16 @@ header {
     border-radius: 10% 30% 0% 30%;
     top: 0;
     right: 130px;
+    z-index: 1;
+}
+.shape2 {
+    background-color: #ec3c3c41;
+    width: 9%;
+    height: 14%;
+    position: absolute;
+    border-radius: 14% 14% 0% 12%;
+    top: 72px;
+    left: 190px;
     z-index: 1;
 }
 

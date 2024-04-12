@@ -35,6 +35,10 @@
     color: var(--second-color);
 }
 
+img {
+    width: 100%;
+}
+
 body {
     background: var(--bg-color);
 }
@@ -72,7 +76,7 @@ header {
 #navbar {
     width: 100%;
     display: flex;
-    padding-top: 14px;
+    padding-top: 12px;
     margin-bottom: 10px;
     align-items: center;
     justify-content: space-between;
@@ -256,9 +260,11 @@ header {
     #cta .desciption {
         font-size: 1rem;
         text-align: justify;
+        margin-bottom: 2rem;
     }
     #cta_buttons {
         gap: 14px;
+        margin-bottom: 2rem;
     
     }
     #cta_buttons a {
@@ -333,6 +339,7 @@ header {
 @media screen and (max-width: 740px ) {
     #cta .desciption {
         font-size: .8rem;
+        text-align: center;
     }
     #cta_buttons a {
         font-size: 8px;
@@ -344,6 +351,13 @@ header {
         background-color: var(--pimary-color);
         padding: 2px 5px;
         font-weight: 500;
+    }
+    #cta_buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    #cta_buttons a {
+        font-size: 10px;
     }
     .btn-default i {
         font-size: 8px;

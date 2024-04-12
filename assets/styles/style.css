@@ -327,3 +327,23 @@ header {
         margin-top: 5%;
     }
 }
+
+@media screen and (max-width: 740px ) {
+    #cta .desciption {
+        font-size: .8rem;
+    }
+    #cta_buttons a {
+        font-size: 8px;
+        font-weight: 300;
+    }
+    #phone_button {
+        gap: 6px;
+        align-items: center;
+        background-color: var(--pimary-color);
+        padding: 2px 5px;
+        font-weight: 500;
+    }
+    .btn-default i {
+        font-size: 8px;
+    }
+}

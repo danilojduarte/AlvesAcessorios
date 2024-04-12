@@ -307,12 +307,14 @@ header {
     #home{
         min-height: 100%;
         padding-top: 0px;
+        background: #ec3c3c41;
         
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
         gap: 2rem;
+        transition: all .5s ease-in-out;
     }
     .shape,
     .shape2 {

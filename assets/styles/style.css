@@ -294,8 +294,8 @@ header {
         height: 14%;
         position: absolute;
         border-radius: 14% 14% 0% 12%;
-        top: 72px;
-        left: 190px;
+        top: 32px;
+        left: 130px;
         z-index: 1;
     }
     

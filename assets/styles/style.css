@@ -9,7 +9,7 @@
 
 
 :root {
-    --bg-color: #f6eaceda;
+    --bg-color: #f4e1a1fd;
     --pimary-color: #dd5523;
     --second-color: #030382;
     --white-color: #fff;
@@ -194,6 +194,13 @@ header {
     z-index: 1;
 }
 
+/* Nossa Loja */
+#sobre {
+    display: flex;
+    flex-direction: row;
+    background: #1C1C1C;
+}
+
 
 
 
@@ -304,6 +311,7 @@ header {
         left: 130px;
         z-index: 1;
     }
+    
     
     /* Resposividade Home -> Fim <- */
     

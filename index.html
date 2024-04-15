@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Favico -->
+    <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/logo-img-removebg-preview.png" type="image/x-icon">
     <link rel="stylesheet" href="/assets/styles/style.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Boxicons -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,8 +23,6 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
-    <!-- Jquery CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Title -->
     <title>Alves Acessórios</title>
@@ -29,106 +31,125 @@
 <body>
     <!-- HEADER -->
     <header>
-        <nav id="navbar">
-
+        <a href="#" class="logo">
             <img src="assets/img/logo002-removebg-preview (1).png" id="nav_logo" alt="">
-            
+        </a>
 
-            <ul class="nav-list" id="nav_list">
-                <li class="nav-item active"><a href="#inicio">Início</a></li>
-                <li class="nav-item"><a href="nossaloja">Nossa Loja</a></li>
-                <li class="nav-item"><a href="#novidades">Novidades</a></li>
-                <li class="nav-item"><a href="#contato">Contato</a></li>
-            </ul>
+        <ul class="nav-list">
+            <li class="nav-item active"><a href="#inicio">Início</a></li>
+            <li class="nav-item"><a href="nossaloja">Nossa Loja</a></li>
+            <li class="nav-item"><a href="#novidades">Novidades</a></li>
+            <li class="nav-item"><a href="#contato">Contato</a></li>
+        </ul>
 
-            <button class="btn-default">
-                <i class="fa-brands fa-whatsapp"></i>
-                WhatsApp
-            </button>
+        <div class="header-icon">
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <div class="bx bx-menu" id="menu-icon">
 
-            <button id="mobile_btn">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-        </nav>
-
-        <div id="mobile_menu">
-            <ul id="mobile_nav_list">
-                <li class="nav-item"><a href="#inicio">Início</a></li>
-                <li class="nav-item"><a href="#nossaloja">Nossa Loja</a></li>
-                <li class="nav-item"><a href="#novidades">Novidades</a></li>
-                <li class="nav-item"><a href="#contato">Contato</a></li>                
-            </ul>
-            <button class="btn-default">
-                <i class="fa-brands fa-whatsapp"></i>
-                WhatsApp
-            </button>
+            </div>
         </div>
     </header>
-
-    <!-- Main -->
-    <main id="content">
-    <!-- Inicio -->
-    <section id="home">
-        <div class="shape"></div>
-        <div class="shape2"></div>
-        <div id="cta">
-            <h1 class="title"><span>Alves</span> Acessórios</h1>
-            <p class="desciption">
-                Grande variedade de acessórios premium para smartphones e iPhones em nossa loja! Desde capas de proteção até carregadores e fones de ouvido de alta qualidade.
-            </p>
-            <div id="cta_buttons">
-                <a href="#" class="btn-default">Saiba Mais</a>
-                <!-- <a href="tel:+5584987915406" id="phone_button">
-                    <button class="btn-default">
-                        <i class="fa-solid fa-phone"></i>
-                    </button>
-                    (84) 98791-5406
-                </a> -->
-            </div>
-            <div class="social-media-buttons">
-                <a href="#">
-                    <i class="fa-brands fa-whatsapp"></i>
-                </a> 
-                <a href="#">
-                    <i class="fa-brands fa-instagram"></i>
-                </a> 
-                <a href="#">
-                    <i class="fa-brands fa-facebook"></i>
-                </a> 
-            </div>
-        </div>
-        <div id="banner">
-            <img src="assets/img/Mask Group.png" alt="">
-        </div>
-    </section>
-
-    <!-- Nossa Loja -->
-    <!-- Criar section falando sobre a loja -->
-    <section id="sobre">
-        <div class="nossa-text">
-            <h2>Nossa Loja</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ex cum recusandae harum blanditiis, minima suscipit officia mollitia odit deleniti tempore necessitatibus adipisci animi doloremque dolorem, magnam rerum sed dolores.
-        </p>
-        </div>
-        <div class="nossa-img">
-            <img src="assets/img/ssobre-img-02.jpg" alt="">
-        </div>
-        
-    </section>
-
-    <!-- Novidades -->
-
-    <!-- Contato -->
-
-    </main>
-
-    
-
-    <!-- Footer -->
 
 
     <script src="assets/js/script.js"></script>
 </body>
 
 </html>
+
+
+
+<header>
+    <nav id="navbar">
+
+        
+        
+
+        
+
+        <button class="btn-default">
+            <i class="fa-brands fa-whatsapp"></i>
+            WhatsApp
+        </button>
+
+        <button id="mobile_btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </nav>
+
+    <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+            <li class="nav-item"><a href="#inicio">Início</a></li>
+            <li class="nav-item"><a href="#nossaloja">Nossa Loja</a></li>
+            <li class="nav-item"><a href="#novidades">Novidades</a></li>
+            <li class="nav-item"><a href="#contato">Contato</a></li>                
+        </ul>
+        <button class="btn-default">
+            <i class="fa-brands fa-whatsapp"></i>
+            WhatsApp
+        </button>
+    </div>
+</header>
+
+<!-- Main -->
+<main id="content">
+<!-- Inicio -->
+<section id="home">
+    <div class="shape"></div>
+    <div class="shape2"></div>
+    <div id="cta">
+        <h1 class="title"><span>Alves</span> Acessórios</h1>
+        <p class="desciption">
+            Grande variedade de acessórios premium para smartphones e iPhones em nossa loja! Desde capas de proteção até carregadores e fones de ouvido de alta qualidade.
+        </p>
+        <div id="cta_buttons">
+            <a href="#" class="btn-default">Saiba Mais</a>
+            <!-- <a href="tel:+5584987915406" id="phone_button">
+                <button class="btn-default">
+                    <i class="fa-solid fa-phone"></i>
+                </button>
+                (84) 98791-5406
+            </a> -->
+        </div>
+        <div class="social-media-buttons">
+            <a href="#">
+                
+            </a> 
+            <a href="#">
+                
+            </a> 
+            <a href="#">
+                
+            </a> 
+        </div>
+    </div>
+    <div id="banner">
+        <img src="assets/img/Mask Group.png" alt="">
+    </div>
+</section>
+
+<!-- Nossa Loja -->
+<!-- Criar section falando sobre a loja -->
+<section id="sobre">
+    <div class="nossa-text">
+        <h2>Nossa Loja</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ex cum recusandae harum blanditiis, minima suscipit officia mollitia odit deleniti tempore necessitatibus adipisci animi doloremque dolorem, magnam rerum sed dolores.
+    </p>
+    </div>
+    <div class="nossa-img">
+        <img src="assets/img/ssobre-img-02.jpg" alt="">
+    </div>
+    
+</section>
+
+<!-- Novidades -->
+
+<!-- Contato -->
+
+</main>
+
+
+
+<!-- Footer -->

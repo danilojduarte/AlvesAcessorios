@@ -66,12 +66,23 @@ header {
 }
 .header-icons i {
     margin-left: 10px;
-    font-size: 24px;
+    font-size: 26px;
     color: var(--pimary-color);
     transition: all .40s ease;
     margin-right: 15px;
+    cursor: pointer;
 }
-
+.header-icons i:hover {
+    transform: scale(1.2);
+    color: var(--text-color);
+}
+#menu-icon {
+    font-size: 34px;
+    color: var(--text-color);
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
 
 
 /* Componentes */

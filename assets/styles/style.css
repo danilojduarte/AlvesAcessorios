@@ -42,6 +42,26 @@ header {
     padding: 23px 13%;
     transition: all .40s ease;
 }
+.logo img {
+    height: auto;
+    width: 160px;
+    max-width: 100%;
+}
+.navbar {
+    display: flex;
+}
+.navbar a  {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: var(--p-font);
+    padding: 10px 22px;
+    transition: all .40s ease;
+}
+.navbar a:hover {
+    color: var(--main-color);
+}
+
+
 
 /* Componentes */
 .btn-default {
@@ -94,14 +114,7 @@ section {
     box-shadow: 0px 0px 12px 4px rgba(223, 5, 5, 0.638);
 }
 
-#navbar {
-    width: 100%;
-    display: flex;
-    padding-top: 12px;
-    margin-bottom: 10px;
-    align-items: center;
-    justify-content: space-between;
-}
+
 #nav_logo {
     width: 8rem;
     height: auto;
@@ -111,12 +124,7 @@ section {
     font-size: 14px;
     gap: 48px;
 }
-.nav-item a {
-    text-decoration: none;
-    color: var(--pimary-color);
-    font-size: 1.2rem;
-    font-weight: 600;
-}
+
 .nav-item.active a {
     color: var(--second-color);
     border-bottom: 3px solid var(--second-color);

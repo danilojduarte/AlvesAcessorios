@@ -49,6 +49,10 @@ header {
     height: auto;
     width: 160px;
     max-width: 100%;
+    transition: all .40s ease;
+}
+.logo img:hover {
+    transform: scale(1.1);
 }
 .navbar {
     display: flex;
@@ -79,6 +83,11 @@ header {
     transform: scale(1.2);
     color: var(--text-color);
 }
+header.sticky {
+    background: var(--white-color);
+    padding: 12px 13%;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 8%);
+}
 #menu-icon {
     font-size: 34px;
     color: var(--text-color);
@@ -96,7 +105,7 @@ header {
     background: var(--bg-color);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 3rem;
     align-items: center;
     padding-top: 8rem;
 }
@@ -121,18 +130,51 @@ header {
 }
 .home-img img {
     height: auto;
-    width: 90%;
+    width: 80%;
     border-radius: 50%;
 }
 .home-img img {
     box-shadow: 0px 0px 12px 8px rgba(223, 5, 5, 0.638);
 }
 
-
-
-
-
-
+/* ===> CONTAINER <=== */
+.container {
+    padding: 70px 13%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 1.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+.container-box {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    border: 1px solid var(--text-color);
+    padding: 20px 30px;
+    box-shadow: -11.729px -11.729px 32px rgb(255 255 255 / 15%);
+    transition: all .40s ease;
+}
+.container-box:hover {
+    transform: translateY(-15px);
+}
+.container-icon i {
+    font-size: 28px;
+    color: var(--pimary-color);
+}
+.container-icon img {
+    font-size: 28px;
+}
+.container-text h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.container-text p {
+    font-size: var(--p-font);
+    color: var(--pimary-color);
+    font-weight: 500;
+}
 
 
 

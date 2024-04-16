@@ -73,7 +73,7 @@ header {
 }
 .header-icons i {
     margin-left: 10px;
-    font-size: 26px;
+    font-size: 32px;
     color: var(--pimary-color);
     transition: all .40s ease;
     margin-right: 15px;

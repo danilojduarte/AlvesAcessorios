@@ -149,9 +149,11 @@ header.sticky {
 .container-box {
     display: flex;
     align-items: center;
-    gap: 1.8rem;
+    flex-direction: column;
+    gap: 1.2rem;
     border: 1px solid var(--text-color);
-    padding: 20px 30px;
+    border-radius: 8px;
+    padding: 18px 30px;
     box-shadow: -11.729px -11.729px 32px rgb(255 255 255 / 15%);
     transition: all .40s ease;
 }
@@ -159,12 +161,12 @@ header.sticky {
     transform: translateY(-15px);
 }
 .container-icon i {
-    font-size: 28px;
+    font-size: 32px;
     color: var(--pimary-color);
 }
-.container-icon img {
+/* .container-icon img {
     font-size: 28px;
-}
+} */
 .container-text h4{
     font-size: 20px;
     font-weight: 700;

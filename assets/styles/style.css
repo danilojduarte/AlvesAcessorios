@@ -185,7 +185,7 @@ header.sticky {
 /* ===> SOBRE <=== */
 .sobre {
     position: relative;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background: var(--white-color);
     display: grid;
@@ -198,6 +198,7 @@ header.sticky {
     height: auto;
     width: 100%;
     border-radius: 16px;
+    box-shadow: -11.729px -11.729px 162px rgba(241, 9, 9, 0.15);
 }
 .sobre-text h5 {
     color: var(--text-color);

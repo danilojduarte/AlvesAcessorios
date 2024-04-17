@@ -109,6 +109,9 @@ header.sticky {
     align-items: center;
     padding-top: 8rem;
 }
+.home-text {
+    width: 90%;
+}
 .home-text h1 {
     font-size: var(--big-font);
     margin: 15px 0 15px;
@@ -179,7 +182,39 @@ header.sticky {
 }
 
 
-
+/* ===> SOBRE <=== */
+.sobre {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: var(--white-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+    padding-top: 1rem;
+}
+.sobre-img img {
+    height: auto;
+    width: 100%;
+    border-radius: 16px;
+}
+.sobre-text h5 {
+    color: var(--text-color);
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.sobre-text span {
+    color: var(--pimary-color);
+}
+.sobre-text p {
+    color: var(--text-color);
+    font-size: var(--p-font);
+    text-align: justify;
+    font-weight: 500;
+    margin-bottom: 48px;
+}
 
 
 

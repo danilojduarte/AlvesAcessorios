@@ -239,7 +239,7 @@ header.sticky {
 .servicos-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    gap: 1.5rem;
+    gap: .6rem;
     align-items: center;
     cursor: pointer;
     margin-top: 4rem;
@@ -255,12 +255,13 @@ header.sticky {
     align-items: center;
     text-align: center;
     height: 100%;
+    width: 16rem;
     
 
     
     border: 1px solid #e9ecef;
     border-radius: 8px;
-    padding: 16px 15px;
+    padding: 10px 11px;
     box-shadow: -11.729px -11.729px 32px rgb(255 255 255 / 15%);
     transition: all .40s ease;
 }

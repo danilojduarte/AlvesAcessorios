@@ -225,7 +225,7 @@ header.sticky {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
+    height: 100vh;
 }
 .card__container {
     padding-block: 5rem;
@@ -280,7 +280,29 @@ header.sticky {
     margin-inline: auto;
     filter: blur(65px);
 }
-
+.card__title {
+    font-size: 1.5rem;
+    color: var(--pimary-color);
+}
+.card__description {
+    font-size: var(--p-font);
+    color: var(--text-color);
+    margin-bottom: .6rem;
+    text-transform: capitalize;
+}
+.price {
+    font-size: var(--p-font);
+    color: var(--pimary-color);
+    margin-bottom: .9rem;
+}
+.card__button {
+    display: inline-block;
+    background-color: var(--pimary-color);
+    padding: .75rem 1.5rem;
+    border-radius: 25rem;
+    color: var(--white-color);
+    font-weight: 600;
+}
 
 
 

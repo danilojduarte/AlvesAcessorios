@@ -227,6 +227,25 @@ header.sticky {
     align-items: center;
     /* height: 100vh; */
 }
+.card__container {
+    padding-block: 5rem;
+}
+.card__content {
+    margin-inline: 1.75rem;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+.card__article {
+    width: 300px;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+.card__img {
+    position: relative;
+    background-color: var(--pimary-color);
+    padding-top: 1.5rem;
+    margin-bottom: -.75rem;
+}
 
 
 /* ===> SERVIÇOS <=== */

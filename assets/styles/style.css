@@ -157,10 +157,10 @@ header.sticky {
     align-items: center;
     flex-direction: column;
     gap: 1.2rem;
-    border: 1px solid #e9ecef;
+    border: 1px solid #919192;
     border-radius: 8px;
     padding: 18px 30px;
-    box-shadow: -11.729px -11.729px 32px rgb(255 255 255 / 15%);
+    box-shadow: -11.729px -11.729px 32px rgba(214, 212, 212, 0.377);
     transition: all .40s ease;
 }
 .container-box:hover {
@@ -244,11 +244,6 @@ header.sticky {
     cursor: pointer;
     margin-top: 4rem;
 }
-.box img {
-    height: auto;
-    width: 20%;
-    margin-bottom: 20px;
-}
 .box {
     display: flex;
     flex-direction: column;
@@ -259,7 +254,7 @@ header.sticky {
     
 
     
-    border: 1px solid #e9ecef;
+    border: 1px solid #a4a5a6;
     border-radius: 8px;
     padding: 10px 11px;
     box-shadow: -11.729px -11.729px 32px rgb(255 255 255 / 15%);
@@ -268,10 +263,15 @@ header.sticky {
 .box:hover {
     transform: translateY(-15px);
 }
+.box img {
+    height: auto;
+    width: 20%;
+    margin-bottom: 20px;
+}
 .box h3 {
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     line-height: 1.3;
     transition: all .40s ease;
 }
@@ -281,7 +281,7 @@ header.sticky {
 .box p {
     font-size: 14px;
     color: var(--text-color);
-    font-weight: 500; 
+    font-weight: 400; 
 }
 .main-btn {
     text-align: center;

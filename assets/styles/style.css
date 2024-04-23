@@ -224,11 +224,14 @@ header.sticky {
     justify-content: center;
     transition: all .4s ease;
     min-height: 100vh;
+
+    max-width: 1120px;
+    width: 100%;
 }
 .card {
     border-radius: 20px;
     background-color: rgb(244, 244, 244);
-    width: 320px;
+    width: 280px;
 
     display: flex;
     flex-direction: column;
@@ -239,11 +242,12 @@ header.sticky {
 }
 .img-content,
 .card-content {
-    padding: 10px 14px;
+    padding: 8px 11px;
 }
 .card-image {
     background-color: transparent;
     position: relative;
+    row-gap: 5px;
     height: auto;
     width: 100%;
     border-radius: 20px;
@@ -258,12 +262,12 @@ header.sticky {
     /* background-color: #919192; */
 }
 .card-image .card-img {
-    height: 95%;
-    width: 95%;
+    height: 85%;
+    width: 85%;
     object-fit: cover;
 }
 .card-img img {
-    width: 90%;
+    width: 80%;
     height: auto;
 }
 .card-content h2 {

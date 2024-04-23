@@ -225,7 +225,14 @@ header.sticky {
    min-height: 100vh;
    background: #09161d;
 }
-
+.card-produto {
+    position: relative;
+    width: 320px;
+    height: 420px;
+    background: var(--pimary-color);
+    border-radius: 20px;
+    /* overflow: hidden; */
+}
 
 
 

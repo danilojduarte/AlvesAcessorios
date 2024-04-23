@@ -219,14 +219,11 @@ header.sticky {
 
 /* CARD SLIDES (NOVIDADES SECTION) */
 .slides-cards {
-    width: 300px;
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    /* overflow: hidden; */
-    position: relative;
-    left: 50%;
-    top: 60%;
-    transform: translate(-30%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background: #09161d;
 }
 
 

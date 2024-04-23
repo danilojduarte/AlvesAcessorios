@@ -218,7 +218,35 @@ header.sticky {
 }
 
 /* CARD SLIDES (NOVIDADES SECTION) */
-.slide-container {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .slide-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -251,17 +279,17 @@ header.sticky {
     height: auto;
     width: 100%;
     border-radius: 20px;
-    /* padding: 1px; */
-}
-.overlay {
+    padding: 1px;
+} */
+/* .overlay {
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-    /* background-color: #919192; */
-}
-.card-image .card-img {
+    background-color: #919192;
+} */
+/* .card-image .card-img {
     height: 85%;
     width: 85%;
     object-fit: cover;
@@ -306,7 +334,7 @@ header.sticky {
 .card-content button:hover {
     background-color: var(--white-color);
     color: var(--pimary-color);
-}
+} */
 
 /* ===> SERVIÇOS <=== */
 .cente-text {

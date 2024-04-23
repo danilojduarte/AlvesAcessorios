@@ -218,8 +218,83 @@ header.sticky {
 }
 
 /* CARD SLIDES (NOVIDADES SECTION) */
+.slides-cards {
+    width: 300px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    /* overflow: hidden; */
+    position: relative;
+    left: 50%;
+    top: 60%;
+    transform: translate(-30%);
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .slides-cards {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #efefef;
+}
+.slides-cards {
+    max-width: 1120px;
+    width: 100%;
+    background: #efefef;
+} */
+/* .card {
+    width: 312px;
+    background: var(--white-color);
+    border-radius: 8px;
+}
+.card .image-box {
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .image-box img {
+    height: 100%;
+}
+.profile-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    column-gap: 12px;
+    padding: 15px;
+}
+.name-product h3 {
+    font-size: 20px;
+    color: var(--pimary-color);
+    font-weight: 500;
+
+}
+.name-product h4 {
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: 400;
+}
+.name-product p {
+    font-size: 20px;
+    color: var(--pimary-color);
+    font-weight: 500;
+    
+} */
 
 
 

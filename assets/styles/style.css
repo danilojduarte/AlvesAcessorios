@@ -260,10 +260,13 @@ header.sticky {
 
 
 
-
 /* ===> SERVIÇOS <=== */
+.servicos {
+    background: var(--white-color);
+}
 .cente-text {
     text-align: center;
+
 }
 .cente-text h2 {
     font-size: var(--h2-font);

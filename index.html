@@ -8,8 +8,6 @@
     <link rel="shortcut icon" href="assets/img/logo-img-removebg-preview.png" type="image/x-icon">
     <!-- Css -->
     <link rel="stylesheet" href="/assets/styles/style.css">
-    <!-- Swiper Css -->
-    <link rel="stylesheet" href="assets/styles/swiper-bundle.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
@@ -128,90 +126,39 @@
     </section>
 
     <!-- NOVIDADES -->
-    <section class="novidades" id="novidades">
-        <div class="cards-container">
-            <div class="cards-titulo">
-                <h2>Novidades</h2>
-                <h5>Conheça as novidades de nossa <span>Loja</span></h5>
-            </div>
 
-            <div class="card-produtos swiper">
-                <div class="swiper-wrapper">
+    <section class="p-slider" id="novidades">
+        <h3 class="slider-titulo">Novidades</h3>
 
-                    <div class="produto swiper-slide">
-                        <div class="produto-img">
-                            <img src="assets/img/jbl_bluepng_1-removebg-preview.png" alt="">
-                        </div>
-                        <div class="titulo-produto">
-                            <h2>Fone de ouvido JBL - Blue</h2>
-                        </div>
-                        <h6>R$ 70.00</h6>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="btn-compra">
-                            <button>Compre Agora</button>
-                        </div>
-                    </div>
+        <div class="produto-box">
+            <div class="p-img-container">
+                <div class="p-img">
 
-                    <div class="produto swiper-slide">
-                        <div class="produto-img">
-                            <img src="assets/img/smartwatch-removebg-preview.png" alt="">
-                        </div>
-                        <div class="titulo-produto">
-                            <h2>Relógio SmartWatch Ultra Pro Max</h2>
-                        </div>
-                        <h6>R$ 180.00</h6>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="btn-compra">
-                            <button>Compre Agora</button>
-                        </div>
-                    </div>
-
-                    <div class="produto swiper-slide">
-                        <div class="produto-img">
-                            <img src="assets/img/CapasIphone-removebg-preview.png" alt="">
-                        </div>
-                        <div class="titulo-produto">
-                            <h2>Case colorida para iPhone</h2>
-                        </div>
-                        <h6>R$ 40.00</h6>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="btn-compra">
-                            <button>Compre Agora</button>
-                        </div>
-                    </div>
-
+                    <a href="#">
+                        <img src="assets/img/jbl_bluepng_1-removebg-preview.png" class="p-img-front" alt="">
+                    </a>
                 </div>
             </div>
 
-            <!-- Navigation buttons -->
-            <div class="swiper-button-prev">
-                <i class='bx bxs-chevron-left' ></i>
-            </div>
-            <div class="swiper-button-next">
-                <i class='bx bxs-chevron-right'></i>
-            </div>
+            <!-- Texto -->
+            <div class="p-box-text">
+                <!-- categoria -->
+                <div class="produto-categoria">
+                    <span>Fone</span>
+                </div>
 
-            <!-- Pagination -->
-            <div class="swiper-pagination"></div>
+                <!-- Title -->
+                <a href="#" class="produto-titulo">
+                    Fone de ouvido JBL - Blue
+                </a>
 
+                <!-- Price -->
+                <div class="price-buy">
+                    <span class="p-price">R$ 70.00</span>
+                    <a href="#" class="p-price-btn">Compre Agora</a>
+                </div>
+
+            </div>
         </div>
     </section>
 
@@ -267,15 +214,12 @@
         </div>
 
     </section>
-
+<!-- 
     <script type="text/javascript">
         function slider(anything) {
             document.querySelector('.one').src = anything;
         }
-    </script>
-
-    <!-- SWIPER JS -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    </script> -->
 
     <!-- SCRIPT JS -->
     <script src="assets/js/script.js"></script>

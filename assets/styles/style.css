@@ -244,7 +244,7 @@ header.sticky {
 .p-img a,
 .p-img {
     width: 100%;
-    height: 100%;
+    height: 300px;
     display: flex;
 }
 .p-img a img {
@@ -278,6 +278,36 @@ header.sticky {
     color: var(--pimary-color);
     opacity: 0.7;
     transition: all 0.3s ease;
+}
+.price-buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+.price-buy .p-price {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    font-weight: 700;
+}
+.price-buy .p-buy-btn {
+    color: var(--pimary-color);
+    margin: 0px 5px;
+    font-weight: 500;
+    transition: all .4s ease;
+
+    border: none;
+    border-radius: 8px;
+    padding: 2px 6px;
+    background: var(--white-color);
+    color: var(--pimary-color);
+}
+.price-buy .p-buy-btn:hover {
+    border: none;
+    border-radius: 8px;
+    padding: 2px 6px;
+    background: var(--pimary-color);
+    color: var(--white-color);
 }
 
   /* CARD SLIDES (NOVIDADES SECTION) FIM */

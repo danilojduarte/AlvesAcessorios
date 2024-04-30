@@ -219,7 +219,11 @@ header.sticky {
 
 
 /* CARD SLIDES (NOVIDADES SECTION) */
-.p-slider {
+
+
+
+
+/* .p-slider {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -308,7 +312,7 @@ header.sticky {
     padding: 2px 6px;
     background: var(--pimary-color);
     color: var(--white-color);
-}
+} */
 
   /* CARD SLIDES (NOVIDADES SECTION) FIM */
 

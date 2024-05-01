@@ -101,7 +101,7 @@ header.sticky {
 /* ===> HOME <=== */
 .home {
     position: relative;
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     background: var(--bg-color);
     display: grid;
@@ -239,8 +239,8 @@ header.sticky {
 }
 .menu-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(277px, auto));
+    grid-gap: 3rem;
     align-items: center;
     margin-top: 4.5rem;
     cursor: pointer;
@@ -252,15 +252,19 @@ header.sticky {
     border-radius: 20px;
     transition: all .40s ease;
 }
+.box-produtos:hover {
+    transform: scale(1.04) translateY(-5px);
+}
 .box-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+    transition: all .40s ease;
 }
 .box-img img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 .box-texto h4 {
@@ -270,10 +274,10 @@ header.sticky {
     margin-bottom: 10px;
 }
 .box-texto p {
-    font-size: var(--p-font);
+    font-size: 16px;
     color: var(--text-color);
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 .box-texto h6 {
     color: var(--pimary-color);
@@ -354,7 +358,7 @@ header.sticky {
 }
 .btn {
     display: inline-block;
-    padding: 16px 30px;
+    padding: 12px 20px;
     font-size: var(--p-font);
     font-weight: 700;
     background: var(--pimary-color);

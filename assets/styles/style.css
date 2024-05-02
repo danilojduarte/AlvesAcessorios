@@ -259,13 +259,13 @@ header.sticky {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
     transition: all .40s ease;
 }
 .box-img img {
     width: 90%;
-    height: auto;
+    height: 140px;
 }
 .box-texto h4 {
     color: var(--pimary-color);

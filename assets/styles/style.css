@@ -369,3 +369,9 @@ header.sticky {
 .btn:hover {
     transform: scale(0.9) translateY(-5px);
 }
+
+
+/* Contato */
+#mapa {
+    height: 400px;
+}

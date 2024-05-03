@@ -372,6 +372,14 @@ header.sticky {
 
 
 /* Contato */
-#mapa {
-    height: 400px;
+.contato {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 4rem;
+}
+.mapa iframe {
+    border-radius: 12px;
 }

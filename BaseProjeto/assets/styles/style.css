@@ -87,8 +87,6 @@ nav {
   isolation: isolate;
   width: 100%;
   z-index: 9;
-
-  background-color: red;
 }
 
 .nav__header {
@@ -100,10 +98,19 @@ nav {
   background-color: var(--primary-color);
 }
 
-.nav__logo img {
+.nav__logo h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav__logo h4 span {
+  color: var(--primary-color);
+}
+
+/* .nav__logo img {
   width: 20%;
   border-radius: 12px;
-}
+} */
 
 .nav__menu__btn {
   font-size: 1.5rem;
@@ -162,7 +169,7 @@ header {
 
 .header__content h1 {
   margin-bottom: 1rem;
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 900;
   line-height: 5.5rem;
   color: var(--text-dark);
@@ -186,7 +193,7 @@ header {
 }
 
 .header__content h1 span:nth-child(1)::before {
-  background-color: var(--white);
+  background-color: var(--extra-light);
 }
 
 .header__content h1 span:nth-child(4)::before {
@@ -207,6 +214,7 @@ header {
 
 .header__image img {
   max-width: 500px;
+  width: 200px;
   margin-inline: auto;
   padding: 2rem;
 }

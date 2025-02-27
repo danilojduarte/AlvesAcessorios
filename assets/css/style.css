@@ -46,13 +46,17 @@
   padding: 1rem 2rem;
   outline: none;
   border: none;
-  font-size: 1rem;
+  font-size: .8rem;
   color: var(--white);
   background-color: var(--primary-color);
   white-space: nowrap;
   border-radius: 5rem;
   transition: 0.3s;
   cursor: pointer;
+}
+
+.btn i {
+  font-size: 2rem
 }
 
 .btn:hover {
@@ -63,6 +67,10 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.nav__logo a {
+  text-align: center;
 }
 
 img {
@@ -151,6 +159,7 @@ nav {
   font-weight: 500;
   color: var(--white);
   white-space: nowrap;
+  font-size: 1.2rem;
 }
 
 .nav__links a:hover {

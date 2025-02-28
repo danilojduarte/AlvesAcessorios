@@ -46,7 +46,8 @@
   padding: 1rem 2rem;
   outline: none;
   border: none;
-  font-size: .8rem;
+  font-size: 1rem;
+  font-weight: bold;
   color: var(--white);
   background-color: var(--primary-color);
   white-space: nowrap;

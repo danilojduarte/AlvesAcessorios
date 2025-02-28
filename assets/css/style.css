@@ -73,6 +73,12 @@
   text-align: center;
 }
 
+.nav__logo .logo span {
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 img {
   display: flex;
   width: 100%;

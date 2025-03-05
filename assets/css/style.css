@@ -308,6 +308,7 @@ nav {
   isolation: isolate;
   border-radius: 1rem;
   overflow: hidden;
+
 }
 
 .menu__card__details {
@@ -359,6 +360,8 @@ nav {
 .client__image img {
   max-width: 550px;
   margin-inline: auto;
+  border-radius: 2rem;
+
 }
 
 .client__content .section__header {

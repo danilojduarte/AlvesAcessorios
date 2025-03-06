@@ -531,6 +531,7 @@ nav {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+
 }
 
 @media (width > 768px) {
@@ -608,8 +609,12 @@ nav {
     margin-inline-start: unset;
   }
 
+  .header__tag img {
+    width: 20px;
+  }
+
   .header__content :is(h1, .section__description) {
-    text-align: left;
+    text-align: center;
   }
 
   .header__btns {

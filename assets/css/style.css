@@ -488,6 +488,7 @@ nav {
   width: 280px;
   height: auto;
   border-radius: 2rem;
+  margin-bottom: 2rem;
 }
 
 .download__image {
@@ -522,7 +523,8 @@ nav {
 }
 
 .footer__logo img {
-  max-width: 40px;
+  max-width: 120px;
+  border-radius: 18px;
 }
 
 .footer__logo span {
@@ -544,7 +546,7 @@ nav {
 }
 
 .footer__socials a {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--primary-color);
 }
 

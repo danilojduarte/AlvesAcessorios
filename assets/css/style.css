@@ -428,6 +428,20 @@ nav {
 .download__image img {
   max-width: 550px;
   margin-inline: auto;
+
+  width: 280px;
+  height: auto;
+  border-radius: 2rem;
+}
+
+.download__image {
+  transition: all .5s ease;
+  cursor: pointer;
+
+}
+.download__image:hover {
+  opacity: 0.8;
+  transform: scale(1.02);
 }
 
 .download__content {

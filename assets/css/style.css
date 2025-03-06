@@ -722,4 +722,9 @@ nav {
   section h2 {
     font-size: 1.5rem;
   }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

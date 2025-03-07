@@ -522,9 +522,14 @@ nav {
   margin-bottom: 2rem;
 }
 
-.footer__logo img {
-  max-width: 120px;
-  border-radius: 18px;
+.footer__logo h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.footer__logo span {
+  color: var(--primary-color);
 }
 
 .footer__logo span {

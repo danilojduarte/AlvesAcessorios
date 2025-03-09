@@ -426,6 +426,9 @@ nav {
 }
 
 .client__image img {
+  width:70%;
+  height: auto;
+
   max-width: 550px;
   margin-inline: auto;
   border-radius: 2rem;
@@ -497,7 +500,7 @@ nav {
   max-width: 550px;
   margin-inline: auto;
 
-  width: 280px;
+  width: 270px;
   height: auto;
   border-radius: 2rem;
   margin-bottom: 2rem;

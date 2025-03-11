@@ -380,6 +380,8 @@ nav {
   justify-content: center;
   gap: 2px;
 
+  /* Aplicando animação */
+
   transition: all 0.3s ease;
 }
 

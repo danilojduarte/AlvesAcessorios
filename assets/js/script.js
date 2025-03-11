@@ -14,6 +14,13 @@ navLinks.addEventListener("click", (e) => {
   menuBtnIcon.setAttribute("class", "ri-menu-line");
 });
 
+VanillaTilt.init(document.querySelectorAll(".produto-card"), {
+  max: 25,
+  speed: 400,
+  glare: true,
+  "max-glare": 0.5,
+});
+
 const scrollRevealOption = {
   distance: "50px",
   origin: "bottom",

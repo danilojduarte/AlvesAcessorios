@@ -366,9 +366,11 @@ nav {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 15px;
   padding: 20px 0;
+
+  transform-style: preserve-3d;
 }
 .produto-card {
-  background-color: rgba(236, 220, 225, 0.23);
+  /* background-color: rgba(236, 220, 225, 0.23); */
   padding: 35px;
   border-radius: 18px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -381,13 +383,17 @@ nav {
   gap: 2px;
 
   /* Aplicando animação */
+  background-image: linear-gradient(45deg,rgba(208, 175, 192, 0.51), #fff);
+  border: 0;
+  transform-style: preserve-3d;
+
 
   transition: all 0.3s ease;
 }
 
-.produto-card:hover {
+/* .produto-card:hover {
   transform: translateY(-10px);
-}
+} */
 
 .produto-card-img {  
   display:flex;
@@ -397,26 +403,41 @@ nav {
 
   width: 90%;
   height: 262px;
+
+  transform-style: preserve-3d;
 }
 
-.produto-card img {
-  width: 60%;
-  height: auto;
+.produto-card .produto-card-img img {
+  width: 58%;
+  height: 188px;
   border-radius: 8px;
+
+  transform-style: preserve-3d;
+  transition: .5s;
 }
+.produto-card .produto-card-img:hover img {
+  transform: translate3d(0, 0, 100p);
+}
+
 .produto-card h3 {
   color: var(--primary-color);
   margin: 10px 0;
   font-size: 1.2em;
+
+  transform-style: preserve-3d;
 }
 .produto-card p {
   color: #555;
   font-size: 0.9em;
+
+  transform-style: preserve-3d;
 }
 .preco {
   font-size: 1.1em;
   font-weight: bold;
   color: var(--primary-color);
+
+  transform-style: preserve-3d;
 }
 
 /* Section Produto */
